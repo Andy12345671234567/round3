@@ -8,8 +8,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # import file
-file_name = "train.csv"
-df = pd.read_csv(file_name)
+# file_name = "train.csv"
+df = pd.read_csv("https://raw.githubusercontent.com/Andy12345671234567/round3/main/train.csv")
 
 # initialize the application with theme
 app = Dash(__name__, external_stylesheets=[dbc.themes.VAPOR])
